@@ -61,9 +61,22 @@
         <button class="lang"></button>
         <button class="four"></button>
         <button class="three"></button>
-        <button class="search"></button>
+
+        <button class="search" onclick="openSearch()"></button>
         <button class="logo"></button>
       </nav>
+
+      <div id="myOverlay" class="overlay">
+        <span class="closebtn" onclick="closeSearch()" title="Close Overlay"
+          ><i class="fas fa-times"></i
+        ></span>
+        <div class="overlay-content">
+          <form class="search-form">
+            <input type="text" placeholder="Search.." name="search" />
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+        </div>
+      </div>
       <div class="boxes">
         <div class="row">
           <div class="column">

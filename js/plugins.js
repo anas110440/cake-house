@@ -1,6 +1,13 @@
 const toggleSidebare = () => {
   document.body.classList.toggle('open');
 };
+function openSearch() {
+  document.getElementById('myOverlay').style.display = 'block';
+}
+
+function closeSearch() {
+  document.getElementById('myOverlay').style.display = 'none';
+}
 
 function controlFromSlider(fromSlider, toSlider, fromInput) {
   const [from, to] = getParsed(fromSlider, toSlider);
