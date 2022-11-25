@@ -592,7 +592,8 @@ main .boxes .row .out-of-stock .card .row .column .product {
   border: 1px solid #ccc;
   cursor: pointer;
   background-color: #fff;
-  border-radius: 8px;
+  border-radius: 22px 22px 8px 8px;
+  overflow: hidden;
   transition: all 0.3s ease-in;
   position: relative;
   width: 85%;
