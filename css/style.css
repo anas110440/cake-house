@@ -191,6 +191,7 @@ body.open .sidebare-burger {
   margin-bottom: 20px;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
+  color: #000;
 }
 .sidebare .sidebare-inner .add-product:hover {
   opacity: 0.8;
@@ -374,6 +375,9 @@ main nav .lang {
   border-radius: 0 8px 8px 0;
 }
 @media screen and (min-width: 0px) and (max-width: 767px) {
+  .search-form {
+    width: 85%;
+  }
   main {
     width: 100%;
   }
