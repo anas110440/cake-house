@@ -379,7 +379,24 @@ main .boxes .row .column2 .card .information {
   border-radius: 8px;
   min-height: 133px;
 }
-
+@media screen and (min-width: 0px) and (max-width: 991px) {
+  main .boxes .row .column2 .card .information {
+    flex-direction: column;
+  }
+  main .boxes .row .column2 .card .information2 {
+    flex-direction: row;
+  }
+  main .boxes .row .column2 .card .information .left {
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  main .boxes .row .column2 .card .info {
+    flex-direction: row;
+  }
+  main .boxes .row .column2 .card .information .right {
+    padding: 0 50px;
+  }
+}
 main .boxes .row .column2 .card h2 {
   font-weight: 300;
   margin-bottom: 10px;
