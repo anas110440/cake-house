@@ -537,9 +537,12 @@ main .boxes .row .column2 .my-products h1 {
 }
 @media screen and (min-width: 0px) and (max-width: 991px) {
   main .boxes .row .column2 {
-    width: 90%;
+    width: 92%;
     display: block;
     margin-bottom: 20px;
+  }
+  .my-products-container {
+    padding-right: 9px !important;
   }
   main .boxes .row .column2 .card {
     width: 100%;
