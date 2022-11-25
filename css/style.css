@@ -352,6 +352,7 @@ main nav .lang {
   float: left;
   width: 80%;
   background: white;
+  outline: none;
   border-radius: 8px 0 0 8px;
 }
 
