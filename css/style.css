@@ -195,7 +195,7 @@ body.open .sidebare-burger {
 .sidebare .sidebare-inner .sidebare-menu ul li:last-child {
   margin-top: 40px;
 }
-@media (0 <= width <= 767px) {
+@media screen and (min-width: 0px) and (max-width: 767px) {
   .sidebare-burger {
     display: block;
   }
@@ -213,7 +213,7 @@ body.open .sidebare-burger {
     position: fixed;
   }
 }
-@media (768px <= width <= 991px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
   .sidebare {
     width: 30%;
     padding-left: 30px;
@@ -224,7 +224,7 @@ body.open .sidebare-burger {
     font-size: 13px;
   }
 }
-@media (991px <= width <= 1300px) {
+@media screen and (min-width: 991px) and (max-width: 1300px) {
   .sidebare {
     width: 30%;
     padding-left: 30px;
@@ -282,7 +282,7 @@ main nav .lang {
   background: url(../images/5.png) no-repeat no-repeat center center;
   background-size: contain;
 }
-@media (0 <= width <= 767px) {
+@media screen and (min-width: 0px) and (max-width: 767px) {
   main {
     width: 100%;
   }
@@ -361,7 +361,7 @@ main .boxes .row .column .card p span {
     width: 100%;
   }
 }
-@media (600px <= width <= 991px) {
+@media screen and (min-width: 600px) and (max-width: 991px) {
   main .boxes .row .column {
     width: 50%;
     margin-bottom: 20px;
@@ -426,7 +426,7 @@ main .boxes .row .column2 .my-products h1 {
 #my-chart tbody tr td {
   border-radius: 15px;
 }
-@media (0 <= width <= 991px) {
+@media screen and (min-width: 0px) and (max-width: 991px) {
   main .boxes .row .column2 {
     width: 90%;
     display: block;
@@ -501,7 +501,7 @@ main .boxes .row .out-of-stock .card .row .column .product .info span {
 main .boxes .row .out-of-stock .card .row .column .product .info .stars {
   color: var(--mainColor);
 }
-@media (0px <= width <= 1300px) {
+@media screen and (min-width: 0px) and (max-width: 1300px) {
   main .boxes .row .out-of-stock .row .column:last-of-type {
     display: none;
   }
