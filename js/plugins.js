@@ -9,6 +9,34 @@ function closeSearch() {
   document.getElementById('myOverlay').style.display = 'none';
 }
 
+$(document).ready(function () {
+  $('.owl-carousel').owlCarousel();
+});
+$('.owl-carousel').owlCarousel({
+  loop: true,
+  margin: 10,
+  responsiveClass: true,
+  responsive: {
+    0: {
+      items: 3,
+      nav: false,
+    },
+    600: {
+      items: 2,
+      nav: false,
+    },
+    1000: {
+      items: 2,
+      nav: false,
+      loop: false,
+    },
+    1300: {
+      items: 2.5,
+      nav: false,
+      loop: false,
+    },
+  },
+});
 function controlFromSlider(fromSlider, toSlider, fromInput) {
   const [from, to] = getParsed(fromSlider, toSlider);
   fillSlider(fromSlider, toSlider, '#f00', '#000', toSlider);

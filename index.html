@@ -10,6 +10,8 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/charts.css/dist/charts.min.css"
     />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -238,7 +240,21 @@
                   <h1>My Products</h1>
                   <a href="#">See More</a>
                 </div>
-                <div class="row">
+                <div class="row owl-carousel">
+                  <div class="column3 column">
+                    <div class="product">
+                      <img src="images/Rectangle 7.jpg" alt="product" />
+                      <i class="far fa-heart heart-position"></i>
+                      <div class="info">
+                        <p>Macrons</p>
+                        <span><i class="fas fa-star stars"></i> 4.0</span>
+                      </div>
+                      <div class="info">
+                        <p style="color: #909090">$ 250</p>
+                        <i class="far fa-edit"></i>
+                      </div>
+                    </div>
+                  </div>
                   <div class="column3 column">
                     <div class="product">
                       <img src="images/Rectangle 7.jpg" alt="product" />
@@ -356,7 +372,8 @@
     </main>
 
     <!-- End Main -->
-
+    <script src="js/jquery.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
     <script src="js/plugins.js"></script>
   </body>
 </html>

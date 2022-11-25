@@ -564,7 +564,7 @@ main .boxes .row .out-of-stock .row .column {
 }
 main .boxes .row .my-products .row .column3 {
   float: left;
-  width: 33%;
+  width: 100%;
   padding: 10px;
   margin-bottom: 0px;
 }
@@ -614,8 +614,14 @@ main .boxes .row .out-of-stock .card .row .column .product .info .stars {
   main .boxes .row .out-of-stock .row .column:last-of-type {
     display: none;
   }
+  main .boxes .row .my-products .row .column:last-of-type {
+    display: block;
+  }
   main .boxes .row .out-of-stock .row .column {
     width: 50%;
+  }
+  main .boxes .row .my-products .row .column {
+    width: 100%;
   }
 }
 /* End Boxes */
