@@ -360,6 +360,10 @@ main .boxes .row .column .card p span {
   main .boxes .row .column .card {
     width: 100%;
   }
+  main .boxes .row .column2 .card .info {
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
 }
 @media screen and (min-width: 600px) and (max-width: 991px) {
   main .boxes .row .column {
