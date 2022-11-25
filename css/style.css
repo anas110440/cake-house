@@ -94,6 +94,9 @@ input[type='range'] {
   border-radius: 50px;
   padding: 10px;
 }
+.owl-dots {
+  display: none;
+}
 
 /* Start Graid System */
 @media (min-width: 576px) {
@@ -522,6 +525,7 @@ main .boxes .row .column2 .card .information .left p {
 main .boxes .row .column2 .my-products {
   background-color: var(--mainColor);
   padding: 10px;
+  padding-bottom: 5px;
   border-radius: 8px 0 0 8px;
 }
 main .boxes .row .column2 .my-products h1 {
