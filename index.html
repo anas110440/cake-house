@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cake House</title>
+    <link rel="stylesheet" href="fonts/css/all.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/charts.css/dist/charts.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Start Sidebare -->
+    <button
+      type="button"
+      class="sidebare-burger"
+      onclick="toggleSidebare()"
+    ></button>
+    <nav class="sidebare">
+      <div class="sidebare-inner">
+        <div class="sidebare-header">
+          <img src="images/Rectangle.png" alt="avatar" />
+          <h3 class="name">Cake House</h3>
+          <p class="email">cakehouse@gmail.com</p>
+          <h2 class="amount">$ 0.00</h2>
+        </div>
+        <button class="add-product">
+          <i class="fas fa-plus"></i>&nbsp; Add New Products
+        </button>
+        <div class="sidebare-menu">
+          <ul>
+            <li class="nav-link"><i class="far fa-comment"></i>&nbsp; Chat</li>
+            <li class="nav-link"><i class="fas fa-cog"></i>&nbsp; Settings</li>
+            <li class="nav-link">
+              <i class="far fa-list-alt"></i>&nbsp; Orders
+            </li>
+            <li class="nav-link">
+              <i class="far fa-question-circle"></i>&nbsp; Help & Support
+            </li>
+            <li class="nav-link">
+              <i class="fab fa-keycdn"></i>&nbsp; Terms & Conditions & Privacy
+            </li>
+            <li class="nav-link">
+              <i class="far fa-comment-alt"></i>&nbsp; Testimonial
+            </li>
+            <li class="nav-link">
+              <i class="fas fa-sign-out-alt"></i>&nbsp; Logout
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Sidebare -->
+
+    <!-- Start Main -->
+    <main>
+      <nav>
+        <button class="lang"></button>
+        <button class="four"></button>
+        <button class="three"></button>
+        <button class="search"></button>
+        <button class="logo"></button>
+      </nav>
+      <div class="boxes">
+        <div class="row">
+          <div class="column">
+            <div class="card" style="background-color: var(--mainColor)">
+              <h2>97,7%</h2>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                <path
+                  d="M25 2C12.308594 2 2 12.308594 2 25C2 37.691406 12.308594 48 25 48C37.691406 48 48 37.691406 48 25C48 12.308594 37.691406 2 25 2 Z M 25 4C36.609375 4 46 13.390625 46 25C46 36.609375 36.609375 46 25 46C13.390625 46 4 36.609375 4 25C4 13.390625 13.390625 4 25 4 Z M 25 13L18 20L24 20L24 38L26 38L26 20L32 20Z"
+                  fill="#2B9254"
+                />
+              </svg>
+              <p class="time">20,23</p>
+              <div class="range_container">
+                <div class="sliders_control">
+                  <input
+                    id="fromSlider2"
+                    type="range"
+                    value="0"
+                    min="0"
+                    max="100"
+                  />
+                  <input
+                    id="toSlider2"
+                    type="range"
+                    value="90"
+                    min="0"
+                    max="100"
+                  />
+                </div>
+              </div>
+              <p>
+                Transactions
+                <br />
+                <span>Success</span>
+              </p>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="card">
+              <h2>97,7%</h2>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                <path
+                  d="M25 2C12.308594 2 2 12.308594 2 25C2 37.691406 12.308594 48 25 48C37.691406 48 48 37.691406 48 25C48 12.308594 37.691406 2 25 2 Z M 25 4C36.609375 4 46 13.390625 46 25C46 36.609375 36.609375 46 25 46C13.390625 46 4 36.609375 4 25C4 13.390625 13.390625 4 25 4 Z M 24.90625 11.96875C24.863281 11.976563 24.820313 11.988281 24.78125 12C24.316406 12.105469 23.988281 12.523438 24 13L24 34.5625L17.71875 28.28125C17.476563 28.03125 17.121094 27.925781 16.78125 28C16.40625 28.066406 16.105469 28.339844 16 28.703125C15.894531 29.070313 16.003906 29.460938 16.28125 29.71875L24.15625 37.5625C24.175781 37.59375 24.195313 37.625 24.21875 37.65625L24.28125 37.71875C24.300781 37.742188 24.320313 37.761719 24.34375 37.78125C24.355469 37.78125 24.363281 37.78125 24.375 37.78125C24.441406 37.84375 24.515625 37.894531 24.59375 37.9375C24.605469 37.9375 24.613281 37.9375 24.625 37.9375C24.644531 37.949219 24.667969 37.960938 24.6875 37.96875C24.699219 37.96875 24.707031 37.96875 24.71875 37.96875C24.75 37.980469 24.78125 37.992188 24.8125 38C24.917969 38.015625 25.019531 38.015625 25.125 38C25.144531 38 25.167969 38 25.1875 38C25.273438 37.980469 25.359375 37.949219 25.4375 37.90625C25.570313 37.839844 25.6875 37.742188 25.78125 37.625L33.71875 29.71875C34.117188 29.320313 34.117188 28.679688 33.71875 28.28125C33.320313 27.882813 32.679688 27.882813 32.28125 28.28125L26 34.5625L26 13C26.011719 12.710938 25.894531 12.433594 25.6875 12.238281C25.476563 12.039063 25.191406 11.941406 24.90625 11.96875Z"
+                  fill="#ff3d00"
+                />
+              </svg>
+              <p class="time">2hours</p>
+              <div class="range_container">
+                <div class="sliders_control">
+                  <input
+                    id="fromSlider3"
+                    type="range"
+                    value="0"
+                    min="0"
+                    max="100"
+                  />
+                  <input
+                    id="toSlider3"
+                    type="range"
+                    value="90"
+                    min="0"
+                    max="100"
+                  />
+                </div>
+              </div>
+              <p>Responsive</p>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="card">
+              <h2>77%</h2>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                <path
+                  d="M25 2C12.308594 2 2 12.308594 2 25C2 37.691406 12.308594 48 25 48C37.691406 48 48 37.691406 48 25C48 12.308594 37.691406 2 25 2 Z M 25 4C36.609375 4 46 13.390625 46 25C46 36.609375 36.609375 46 25 46C13.390625 46 4 36.609375 4 25C4 13.390625 13.390625 4 25 4 Z M 25 13L18 20L24 20L24 38L26 38L26 20L32 20Z"
+                  fill="#2B9254"
+                />
+              </svg>
+              <p class="time">20,23</p>
+              <div class="range_container">
+                <div class="sliders_control">
+                  <input
+                    id="fromSlider"
+                    type="range"
+                    value="0"
+                    min="0"
+                    max="100"
+                  />
+                  <input
+                    id="toSlider"
+                    type="range"
+                    value="90"
+                    min="0"
+                    max="100"
+                  />
+                </div>
+              </div>
+
+              <p>Feedback</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="boxes">
+        <div class="row">
+          <div class="column2">
+            <div class="card">
+              <h2>Earnings</h2>
+              <div class="info">
+                <p>Total Balance</p>
+                <span>$9,340.00</span>
+              </div>
+              <div class="information">
+                <div class="left">
+                  <p>Earnings in November</p>
+                  <h3>$1,340.00</h3>
+                </div>
+                <div class="right">
+                  <table
+                    class="charts-css column show-data-on-hover data-spacing-7"
+                    id="my-chart"
+                  >
+                    <tbody>
+                      <tr>
+                        <td style="--size: calc(40 / 100)"></td>
+                      </tr>
+                      <tr>
+                        <td style="--size: calc(60 / 100)"></td>
+                      </tr>
+                      <tr>
+                        <td style="--size: calc(70 / 100)"></td>
+                      </tr>
+                      <tr>
+                        <td style="--size: calc(50 / 100)"></td>
+                      </tr>
+                      <tr>
+                        <td style="--size: calc(55 / 100)"></td>
+                      </tr>
+                      <tr>
+                        <td style="--size: calc(50 / 100)"></td>
+                      </tr>
+                      <tr>
+                        <td style="--size: calc(100 / 100)"></td>
+                      </tr>
+                      <tr>
+                        <td style="--size: calc(70 / 100)"></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column2" style="padding-right: 0">
+            <div class="card my-products out-of-stock">
+              <div class="card">
+                <div class="info">
+                  <h1>My Products</h1>
+                  <a href="#">See More</a>
+                </div>
+                <div class="row">
+                  <div class="column3 column">
+                    <div class="product">
+                      <img src="images/Rectangle 7.jpg" alt="product" />
+                      <i class="far fa-heart heart-position"></i>
+                      <div class="info">
+                        <p>Macrons</p>
+                        <span><i class="fas fa-star stars"></i> 4.0</span>
+                      </div>
+                      <div class="info">
+                        <p style="color: #909090">$ 250</p>
+                        <i class="far fa-edit"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="column3 column">
+                    <div class="product">
+                      <img src="images/Rectangle 7.jpg" alt="product" />
+                      <i class="far fa-heart heart-position"></i>
+                      <div class="info">
+                        <p>Macrons</p>
+                        <span><i class="fas fa-star stars"></i> 4.0</span>
+                      </div>
+                      <div class="info">
+                        <p style="color: #909090">$ 250</p>
+                        <i class="far fa-edit"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="column3 column">
+                    <div class="product">
+                      <img src="images/Rectangle 7.jpg" alt="product" />
+                      <i class="far fa-heart heart-position"></i>
+                      <div class="info">
+                        <p>Macrons</p>
+                        <span><i class="fas fa-star stars"></i> 4.0</span>
+                      </div>
+                      <div class="info">
+                        <p style="color: #909090">$ 250</p>
+                        <i class="far fa-edit"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="clear"></div>
+          <div class="column2">
+            <div class="card">
+              <h2>History</h2>
+              <div class="info">
+                <p>Payment history</p>
+                <span>$9,340.00</span>
+              </div>
+              <div class="information">
+                <div class="full">
+                  <p>Total Payments in November</p>
+                  <h3>$1,340.00</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column2 out-of-stock">
+            <div class="card">
+              <h2>Almost out of stock</h2>
+              <div class="row">
+                <div class="column">
+                  <div class="product">
+                    <img src="images/Rectangle 7.jpg" alt="product" />
+                    <i class="far fa-heart heart-position"></i>
+                    <div class="info">
+                      <p>Macrons</p>
+                      <span><i class="fas fa-star stars"></i> 4.0</span>
+                    </div>
+                    <div class="info">
+                      <p style="color: #909090">$ 250</p>
+                      <i class="far fa-edit"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="product">
+                    <img src="images/Rectangle 7.jpg" alt="product" />
+                    <i class="far fa-heart heart-position"></i>
+                    <div class="info">
+                      <p>Macrons</p>
+                      <span><i class="fas fa-star stars"></i> 4.0</span>
+                    </div>
+                    <div class="info">
+                      <p style="color: #909090">$ 250</p>
+                      <i class="far fa-edit"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="product">
+                    <img src="images/Rectangle 7.jpg" alt="product" />
+                    <i class="far fa-heart heart-position"></i>
+                    <div class="info">
+                      <p>Macrons</p>
+                      <span><i class="fas fa-star stars"></i> 4.0</span>
+                    </div>
+                    <div class="info">
+                      <p style="color: #909090">$ 250</p>
+                      <i class="far fa-edit"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </main>
+
+    <!-- End Main -->
+
+    <script src="js/plugins.js"></script>
+  </body>
+</html>
