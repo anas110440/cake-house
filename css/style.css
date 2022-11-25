@@ -379,7 +379,7 @@ main .boxes .row .column2 .card .information {
   border-radius: 8px;
   min-height: 133px;
 }
-@media screen and (min-width: 0px) and (max-width: 991px) {
+@media screen and (min-width: 0px) and (max-width: 600px) {
   main .boxes .row .column2 .card .information {
     flex-direction: column;
   }
