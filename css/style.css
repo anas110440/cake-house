@@ -481,6 +481,9 @@ main .boxes .row .column2 .card .information {
   main .boxes .row .column2 .card .information2 {
     flex-direction: row;
   }
+  .my-products-container .info2 {
+    flex-direction: column !important;
+  }
   main .boxes .row .column2 .card .information .left {
     justify-content: space-between;
     margin-bottom: 15px;
